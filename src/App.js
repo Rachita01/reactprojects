@@ -11,6 +11,7 @@ import StateWithPorps from './StateWithProps';
 import EventExampleLogin from './EventExampleLogin';
 import EventExampleToggle from './EventExampleToggle';
 import EventExamplePfromc from './EventExamplePfromc';
+import RefInput from './RefInput';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <StateWithPorps/>
     <EventExampleToggle/>
     <EventExamplePfromc/>
+    <RefInput/>
     </div>
   );
 };
