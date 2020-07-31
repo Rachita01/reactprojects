@@ -12,12 +12,13 @@ import EventExampleLogin from './EventExampleLogin';
 import EventExampleToggle from './EventExampleToggle';
 import EventExamplePfromc from './EventExamplePfromc';
 import RefInput from './RefInput';
-
+import Clock from './Clock';
 
 function App() {
   return (
     <div>
     <EventExampleLogin/>
+    <Clock/>
     <CarouselExample/>
     <VoteUp/>
     <FirstExample/>
@@ -27,6 +28,7 @@ function App() {
     <EventExampleToggle/>
     <EventExamplePfromc/>
     <RefInput/>
+    
     </div>
   );
 };
